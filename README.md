@@ -29,3 +29,5 @@ tcp_sock_listen(fd, 10);
 ```
 fd = tcp_create_and_listen(0, 201349, 10);
 ```
+
++ 2. 你可以通过 `make` 来编译文件, 用产生的echo server/client 进行测试, 通过添加"__DEBUG__"编译选项可以输出调用 api 时的错误信息. 
